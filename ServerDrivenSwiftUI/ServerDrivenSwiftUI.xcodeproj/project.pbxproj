@@ -14,6 +14,10 @@
 		F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD32C2B506300D6FB32 /* WebService.swift */; };
 		F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD62C2B50A900D6FB32 /* Constants.swift */; };
 		F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */; };
+		F76CBBDD2C2B7E5200D6FB32 /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBDC2C2B7E5200D6FB32 /* UIComponent.swift */; };
+		F76CBBDF2C2B7EA800D6FB32 /* FeatureImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBDE2C2B7EA800D6FB32 /* FeatureImageComponent.swift */; };
+		F76CBBE12C2B7F6100D6FB32 /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE02C2B7F6100D6FB32 /* FeaturedImageUIModel.swift */; };
+		F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE32C2B802900D6FB32 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		F76CBBD32C2B506300D6FB32 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F76CBBD62C2B50A900D6FB32 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		F76CBBDC2C2B7E5200D6FB32 /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		F76CBBDE2C2B7EA800D6FB32 /* FeatureImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureImageComponent.swift; sourceTree = "<group>"; };
+		F76CBBE02C2B7F6100D6FB32 /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
+		F76CBBE32C2B802900D6FB32 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 		F76CBBC32C2B46C700D6FB32 /* ServerDrivenSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F76CBBE22C2B801000D6FB32 /* Extensions */,
+				F76CBBDB2C2B7E3B00D6FB32 /* Components */,
 				F76CBBD82C2B7C7500D6FB32 /* UIModels */,
 				F76CBBD22C2B505000D6FB32 /* Services */,
 				F76CBBD52C2B509800D6FB32 /* Utils */,
@@ -96,8 +106,26 @@
 			isa = PBXGroup;
 			children = (
 				F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */,
+				F76CBBE02C2B7F6100D6FB32 /* FeaturedImageUIModel.swift */,
 			);
 			path = UIModels;
+			sourceTree = "<group>";
+		};
+		F76CBBDB2C2B7E3B00D6FB32 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F76CBBDC2C2B7E5200D6FB32 /* UIComponent.swift */,
+				F76CBBDE2C2B7EA800D6FB32 /* FeatureImageComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F76CBBE22C2B801000D6FB32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F76CBBE32C2B802900D6FB32 /* View+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76CBBDF2C2B7EA800D6FB32 /* FeatureImageComponent.swift in Sources */,
 				F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */,
+				F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */,
+				F76CBBDD2C2B7E5200D6FB32 /* UIComponent.swift in Sources */,
 				F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */,
 				F76CBBC72C2B46C700D6FB32 /* ContentView.swift in Sources */,
 				F76CBBC52C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift in Sources */,
 				F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */,
+				F76CBBE12C2B7F6100D6FB32 /* FeaturedImageUIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
