@@ -13,6 +13,7 @@
 		F76CBBCC2C2B46C900D6FB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76CBBCB2C2B46C900D6FB32 /* Preview Assets.xcassets */; };
 		F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD32C2B506300D6FB32 /* WebService.swift */; };
 		F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD62C2B50A900D6FB32 /* Constants.swift */; };
+		F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F76CBBCB2C2B46C900D6FB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F76CBBD32C2B506300D6FB32 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F76CBBD62C2B50A900D6FB32 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,9 @@
 		F76CBBC32C2B46C700D6FB32 /* ServerDrivenSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F76CBBD82C2B7C7500D6FB32 /* UIModels */,
 				F76CBBD22C2B505000D6FB32 /* Services */,
+				F76CBBD52C2B509800D6FB32 /* Utils */,
 				F76CBBC42C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift */,
 				F76CBBC62C2B46C700D6FB32 /* ContentView.swift */,
 				F76CBBC82C2B46C900D6FB32 /* Assets.xcassets */,
@@ -75,7 +79,6 @@
 		F76CBBD22C2B505000D6FB32 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F76CBBD52C2B509800D6FB32 /* Utils */,
 				F76CBBD32C2B506300D6FB32 /* WebService.swift */,
 			);
 			path = Services;
@@ -87,6 +90,14 @@
 				F76CBBD62C2B50A900D6FB32 /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F76CBBD82C2B7C7500D6FB32 /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */,
+			);
+			path = UIModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */,
+				F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */,
 				F76CBBC72C2B46C700D6FB32 /* ContentView.swift in Sources */,
 				F76CBBC52C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift in Sources */,
 				F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */,
