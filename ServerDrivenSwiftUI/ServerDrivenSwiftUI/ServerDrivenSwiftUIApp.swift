@@ -11,7 +11,8 @@ import SwiftUI
 struct ServerDrivenSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            PetView()
         }
     }
 }

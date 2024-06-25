@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F76CBBC52C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBC42C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift */; };
-		F76CBBC72C2B46C700D6FB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBC62C2B46C700D6FB32 /* ContentView.swift */; };
 		F76CBBC92C2B46C900D6FB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76CBBC82C2B46C900D6FB32 /* Assets.xcassets */; };
 		F76CBBCC2C2B46C900D6FB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76CBBCB2C2B46C900D6FB32 /* Preview Assets.xcassets */; };
 		F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBD32C2B506300D6FB32 /* WebService.swift */; };
@@ -20,12 +19,12 @@
 		F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE32C2B802900D6FB32 /* View+Ext.swift */; };
 		F76CBBE72C2B813100D6FB32 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE62C2B813100D6FB32 /* PetListViewModel.swift */; };
 		F76CBBE92C2B827600D6FB32 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE82C2B827600D6FB32 /* Dictionary+Ext.swift */; };
+		F76CBBED2C2B861700D6FB32 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBEC2C2B861700D6FB32 /* PetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F76CBBC12C2B46C700D6FB32 /* ServerDrivenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerDrivenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76CBBC42C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDrivenSwiftUIApp.swift; sourceTree = "<group>"; };
-		F76CBBC62C2B46C700D6FB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76CBBC82C2B46C900D6FB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76CBBCB2C2B46C900D6FB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F76CBBD32C2B506300D6FB32 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		F76CBBE32C2B802900D6FB32 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		F76CBBE62C2B813100D6FB32 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
 		F76CBBE82C2B827600D6FB32 /* Dictionary+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ext.swift"; sourceTree = "<group>"; };
+		F76CBBEC2C2B861700D6FB32 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +76,9 @@
 				F76CBBD22C2B505000D6FB32 /* Services */,
 				F76CBBD52C2B509800D6FB32 /* Utils */,
 				F76CBBC42C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift */,
-				F76CBBC62C2B46C700D6FB32 /* ContentView.swift */,
 				F76CBBC82C2B46C900D6FB32 /* Assets.xcassets */,
 				F76CBBCA2C2B46C900D6FB32 /* Preview Content */,
+				F76CBBEC2C2B861700D6FB32 /* PetView.swift */,
 			);
 			path = ServerDrivenSwiftUI;
 			sourceTree = "<group>";
@@ -216,10 +216,10 @@
 				F76CBBDF2C2B7EA800D6FB32 /* FeatureImageComponent.swift in Sources */,
 				F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */,
 				F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */,
+				F76CBBED2C2B861700D6FB32 /* PetView.swift in Sources */,
 				F76CBBDD2C2B7E5200D6FB32 /* UIComponent.swift in Sources */,
 				F76CBBE72C2B813100D6FB32 /* PetListViewModel.swift in Sources */,
 				F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */,
-				F76CBBC72C2B46C700D6FB32 /* ContentView.swift in Sources */,
 				F76CBBC52C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift in Sources */,
 				F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */,
 				F76CBBE12C2B7F6100D6FB32 /* FeaturedImageUIModel.swift in Sources */,
