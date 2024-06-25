@@ -1,10 +1,8 @@
-
 const express = require("express")
 const app = express()
 
 // /pet-listing
 app.get("/pet-listing", (req, res) => {
-    
     const model = {
         pageTitle: "Pets",
         components: [
