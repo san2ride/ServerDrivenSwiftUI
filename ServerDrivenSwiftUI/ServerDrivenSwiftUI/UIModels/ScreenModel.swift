@@ -28,7 +28,6 @@ struct ScreenModel: Decodable {
 extension ScreenModel {
     
     func buildComponents() throws -> [UIComponent] {
-        
         var components: [UIComponent] = []
         
         for component in self.components {

@@ -17,7 +17,6 @@ struct PetView: View {
                 ForEach(vm.components, id: \.uniqueId) { component in
                     component.render()
                 }
-                
                 .navigationTitle("Pets")
             }.task {
                 await vm.load()
