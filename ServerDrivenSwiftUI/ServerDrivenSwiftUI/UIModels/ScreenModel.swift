@@ -50,7 +50,10 @@ extension ScreenModel {
                     }
                     components.append(FeatureImageComponent(uiModel: uiModel))
                 case .carousel:
-                    <#code#>
+                    guard let uiModel: CarouselUIModel = component.data.decode() else {
+                        throw ComponentError.decodingError
+                    }
+                    components.append(CarouselComponent(uiModel: uiModel))
             }
         }
         return components

@@ -17,6 +17,6 @@ struct CarouselComponent: UIComponent {
     }
     
     func render() -> AnyView {
-        Text("CarouselComponent").toAnyView()
+        CarouselView(uiModel: uiModel).toAnyView()
     }
 }

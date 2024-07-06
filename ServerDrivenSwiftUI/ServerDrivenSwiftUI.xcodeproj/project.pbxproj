@@ -23,6 +23,7 @@
 		F7A1F8BC2C39EDC200CB13F4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BB2C39EDC200CB13F4 /* JSON.swift */; };
 		F7A1F8BE2C39F10B00CB13F4 /* CarouselUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BD2C39F10B00CB13F4 /* CarouselUIModel.swift */; };
 		F7A1F8C02C39F14400CB13F4 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BF2C39F14400CB13F4 /* CarouselComponent.swift */; };
+		F7A1F8C32C39F28B00CB13F4 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8C22C39F28B00CB13F4 /* CarouselView.swift */; };
 		F7BD40032C2D0049006A01C2 /* pet-listing.json in Resources */ = {isa = PBXBuildFile; fileRef = F7BD40022C2D0049006A01C2 /* pet-listing.json */; };
 		F7BD40052C2D01A3006A01C2 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD40042C2D01A3006A01C2 /* LocalService.swift */; };
 		F7BD40072C2D01D6006A01C2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD40062C2D01D6006A01C2 /* NetworkService.swift */; };
@@ -46,6 +47,7 @@
 		F7A1F8BB2C39EDC200CB13F4 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		F7A1F8BD2C39F10B00CB13F4 /* CarouselUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUIModel.swift; sourceTree = "<group>"; };
 		F7A1F8BF2C39F14400CB13F4 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
+		F7A1F8C22C39F28B00CB13F4 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F7BD40022C2D0049006A01C2 /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
 		F7BD40042C2D01A3006A01C2 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 		F7BD40062C2D01D6006A01C2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 				F76CBBD52C2B509800D6FB32 /* Utils */,
 				F76CBBC82C2B46C900D6FB32 /* Assets.xcassets */,
 				F76CBBCA2C2B46C900D6FB32 /* Preview Content */,
-				F76CBBEC2C2B861700D6FB32 /* PetView.swift */,
+				F7A1F8C12C39F27500CB13F4 /* Views */,
 				F76CBBC42C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift */,
 			);
 			path = ServerDrivenSwiftUI;
@@ -158,6 +160,15 @@
 				F76CBBE62C2B813100D6FB32 /* PetListViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F7A1F8C12C39F27500CB13F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F76CBBEC2C2B861700D6FB32 /* PetView.swift */,
+				F7A1F8C22C39F28B00CB13F4 /* CarouselView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F7F49AE12C2DD9DF001BDA51 /* Models */ = {
@@ -246,6 +257,7 @@
 				F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */,
 				F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */,
 				F76CBBED2C2B861700D6FB32 /* PetView.swift in Sources */,
+				F7A1F8C32C39F28B00CB13F4 /* CarouselView.swift in Sources */,
 				F7BD40052C2D01A3006A01C2 /* LocalService.swift in Sources */,
 				F76CBBDD2C2B7E5200D6FB32 /* UIComponent.swift in Sources */,
 				F76CBBE72C2B813100D6FB32 /* PetListViewModel.swift in Sources */,
