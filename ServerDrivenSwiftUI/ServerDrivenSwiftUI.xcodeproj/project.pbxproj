@@ -20,6 +20,9 @@
 		F76CBBE72C2B813100D6FB32 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE62C2B813100D6FB32 /* PetListViewModel.swift */; };
 		F76CBBE92C2B827600D6FB32 /* Dictionary+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBE82C2B827600D6FB32 /* Dictionary+Ext.swift */; };
 		F76CBBED2C2B861700D6FB32 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CBBEC2C2B861700D6FB32 /* PetView.swift */; };
+		F7A1F8BC2C39EDC200CB13F4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BB2C39EDC200CB13F4 /* JSON.swift */; };
+		F7A1F8BE2C39F10B00CB13F4 /* CarouselUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BD2C39F10B00CB13F4 /* CarouselUIModel.swift */; };
+		F7A1F8C02C39F14400CB13F4 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1F8BF2C39F14400CB13F4 /* CarouselComponent.swift */; };
 		F7BD40032C2D0049006A01C2 /* pet-listing.json in Resources */ = {isa = PBXBuildFile; fileRef = F7BD40022C2D0049006A01C2 /* pet-listing.json */; };
 		F7BD40052C2D01A3006A01C2 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD40042C2D01A3006A01C2 /* LocalService.swift */; };
 		F7BD40072C2D01D6006A01C2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD40062C2D01D6006A01C2 /* NetworkService.swift */; };
@@ -40,6 +43,9 @@
 		F76CBBE62C2B813100D6FB32 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
 		F76CBBE82C2B827600D6FB32 /* Dictionary+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ext.swift"; sourceTree = "<group>"; };
 		F76CBBEC2C2B861700D6FB32 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		F7A1F8BB2C39EDC200CB13F4 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		F7A1F8BD2C39F10B00CB13F4 /* CarouselUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUIModel.swift; sourceTree = "<group>"; };
+		F7A1F8BF2C39F14400CB13F4 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
 		F7BD40022C2D0049006A01C2 /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
 		F7BD40042C2D01A3006A01C2 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 		F7BD40062C2D01D6006A01C2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 			children = (
 				F76CBBD92C2B7C8C00D6FB32 /* ScreenModel.swift */,
 				F76CBBE02C2B7F6100D6FB32 /* FeaturedImageUIModel.swift */,
+				F7A1F8BB2C39EDC200CB13F4 /* JSON.swift */,
+				F7A1F8BD2C39F10B00CB13F4 /* CarouselUIModel.swift */,
 			);
 			path = UIModels;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 			children = (
 				F76CBBDC2C2B7E5200D6FB32 /* UIComponent.swift */,
 				F76CBBDE2C2B7EA800D6FB32 /* FeatureImageComponent.swift */,
+				F7A1F8BF2C39F14400CB13F4 /* CarouselComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -231,13 +240,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76CBBE92C2B827600D6FB32 /* Dictionary+Ext.swift in Sources */,
+				F7A1F8BC2C39EDC200CB13F4 /* JSON.swift in Sources */,
 				F76CBBDF2C2B7EA800D6FB32 /* FeatureImageComponent.swift in Sources */,
+				F7A1F8C02C39F14400CB13F4 /* CarouselComponent.swift in Sources */,
 				F76CBBD42C2B506300D6FB32 /* WebService.swift in Sources */,
 				F76CBBE42C2B802900D6FB32 /* View+Ext.swift in Sources */,
 				F76CBBED2C2B861700D6FB32 /* PetView.swift in Sources */,
 				F7BD40052C2D01A3006A01C2 /* LocalService.swift in Sources */,
 				F76CBBDD2C2B7E5200D6FB32 /* UIComponent.swift in Sources */,
 				F76CBBE72C2B813100D6FB32 /* PetListViewModel.swift in Sources */,
+				F7A1F8BE2C39F10B00CB13F4 /* CarouselUIModel.swift in Sources */,
 				F76CBBDA2C2B7C8C00D6FB32 /* ScreenModel.swift in Sources */,
 				F76CBBC52C2B46C700D6FB32 /* ServerDrivenSwiftUIApp.swift in Sources */,
 				F76CBBD72C2B50A900D6FB32 /* Constants.swift in Sources */,

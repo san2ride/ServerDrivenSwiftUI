@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PetView: View {
     
-    @StateObject private var vm = PetListViewModel(service: WebService())
+    @StateObject private var vm = PetListViewModel(service: LocalService())
     
     var body: some View {
         NavigationView {
