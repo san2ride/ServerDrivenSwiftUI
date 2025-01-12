@@ -25,7 +25,7 @@ struct ComponentModel: Decodable {
         case data
     }
     
-    init(from decoder: any Decoder) throws {
+    init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.type = try container.decode(ComponentType.self, forKey: .type)
         self.data = try container.decode(JSON.self, forKey: .data).value as! [String: Any]
@@ -48,7 +48,7 @@ extension ScreenModel {
                     guard let uiModel: FeaturedImageUIModel = component.data.decode() else {
                         throw ComponentError.decodingError
                     }
-                    components.append(FeatureImageComponent(uiModel: uiModel))
+                    components.append(FeaturedImageComponent(uiModel: uiModel))
                 case .carousel:
                     guard let uiModel: CarouselUIModel = component.data.decode() else {
                         throw ComponentError.decodingError

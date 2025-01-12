@@ -5,7 +5,7 @@
 //  Created by Jason Sanchez on 6/25/24.
 //
 
-import UIKit
+import Foundation
 
 struct Constants {
     
@@ -21,10 +21,9 @@ struct Constants {
             return components.url
         }
     }
-    /*
+    
     struct Urls {
         static let baseUrl = "http://localhost:3000"
         static let petListing = "\(baseUrl)/pet-listing"
     }
-     */
 }

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct FeatureImageComponent: UIComponent {
+struct FeaturedImageComponent: UIComponent {
     let uiModel: FeaturedImageUIModel
     
     var uniqueId: String {

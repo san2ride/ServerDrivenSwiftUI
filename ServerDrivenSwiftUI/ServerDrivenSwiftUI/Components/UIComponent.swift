@@ -5,7 +5,7 @@
 //  Created by Jason Sanchez on 6/25/24.
 //
 
-import UIKit
+import Foundation
 import SwiftUI
 
 protocol UIComponent {
